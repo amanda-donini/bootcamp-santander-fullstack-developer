@@ -5,7 +5,10 @@
 3. dentro do workspace: mkdir nome da pasta
 4. Entrando na pasta: cd nome da pasta\
 5. git init
-6. Criar ou colocar um arquivo na pasta: git add * ou git add nome do arquivo
+6. Criar ou colocar um arquivo na pasta: 
+    1. git add * (adiciona somente o que e novo)
+    2. git add nome do arquivo  
+    3. git add --all (adiciona tudo, ate arquivos deletados)
 7. git status
 8. git commit -m "mensagem sobre o que eu criei ou alterei"
 9. Para sincronizar o repositorio local com o remoto (GitHub): 
